@@ -27,7 +27,7 @@ public class RelogioController {
         timer.start();
     }
 
-    private void atualizarView() {
+    void atualizarView() {
         relogio.atualizarHora();
         view.exibirHora(relogio.getHoraFormatada());
     }
